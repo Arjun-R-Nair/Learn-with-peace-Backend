@@ -8,6 +8,8 @@
     --color-blue: #1a73e8;
     --color-gray: #80868b;
     --color-grayish: #dadce0;
+    --color-olive: #dae2d5;
+    --color-dgreen: #3f6766;
     --shadow-normal: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
         0 1px 2px 0 rgba(0, 0, 0, 0.06);
     --shadow-medium: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
@@ -39,8 +41,8 @@
   
   body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
     font-size: 1rem;
-    font-weight: normal;
     line-height: 1.5;
     color: var(--color-black);
     background: var(--color-light);
@@ -115,8 +117,8 @@
   }
   .text-links {
     font-size: 1rem;
-    font-weight: 400;
-    color: var(--color-blue);
+    font-weight: bold;
+    color: var(--color-dgreen);
   }
   .text-links:hover {
     text-decoration: underline;
@@ -173,11 +175,12 @@
     border: none;
     outline: none;
     border-radius: 2rem;
-    color: var(--color-white);
-    background: var(--color-blue);
+    color: var(--color-dgreen);
+    background: var(--color-olive);
     box-shadow: var(--shadow-medium);
     text-transform: capitalize;
     text-rendering: optimizeLegibility;
+    margin:auto;
   }
   .main .wrapper .striped {
     display: flex;
@@ -227,4 +230,9 @@
   }
   .main .wrapper .method-action:hover {
     background: var(--color-light);
+  }
+  .main .container .logo{
+    padding: 10px;
+    width: 80%;
+    margin: auto;
   }

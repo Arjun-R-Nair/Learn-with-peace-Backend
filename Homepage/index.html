@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
+	<link href='https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="./static/css/login.css">
+	<!-- <link rel="stylesheet" href="./static/js/login.js"> -->
+	<title>Document</title>
+</head>
+
+<body>
+	<style>
+		body {
+			background-image: url(./static/assets/bg.png);
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+		}
+	</style>
+	<main class="main">
+		<div class="container">
+			<section class="wrapper">
+				<div class="logo">
+					<a href="./homepage.html"><img src="./static/assets/logo.png"></a>
+				</div>
+				<div class="heading">
+					<h1 class="text text-large">Sign In</h1>
+				</div>
+				<div class="method">
+					<div class="method-control">
+						<button href="#" class="method-action">
+							<div class="logo"><img src="./static/assets/google.png"></div>
+							<span>Sign in with Google</span>
+						</button>
+						<div id="firebaseui-auth-container"></div>
+					</div>
+
+				</div>
+			</section>
+		</div>
+	</main>
+	<script src="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.js" ></script>
+	<script type="module">
+	</script>
+	<script type="module" src="./static/js/login.js" defer></script>
+</body>
+
+</html>

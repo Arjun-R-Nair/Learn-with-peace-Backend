@@ -132,7 +132,7 @@
     outline: none;
     border-radius: 0.25rem;
     color: var(--color-black);
-    background: var(--color-white);
+    background: var(--color-olive);
     box-shadow: var(--shadow-large);
   }
   .main .wrapper .form {
